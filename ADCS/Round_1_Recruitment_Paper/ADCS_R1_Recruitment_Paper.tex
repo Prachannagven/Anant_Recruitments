@@ -6,6 +6,7 @@
 \usepackage{nameref}
 \usepackage{hyperref}
 \usepackage{xcolor}
+\usepackage{color,soul}
 \usepackage{gensymb}
 \usepackage[]{booktabs}
 \usepackage[utf8]{inputenc}
@@ -77,39 +78,52 @@
 		
 	\pagebreak
 	
-	\newgeometry{left=1in,top=1.25in, right = 1in}
-	
-	\section*{}
+	\newgeometry{left=0.75in,top=1in, right = 0.75in}
 	
 
-	\section*{Question 1 - Bob's Search for the Hill of Happiness}
-	Bob, in his insanity of life, is looking for a mountain, Korok, which claims to have the best weed in the world. However, to find it, he must first decode a map, and achieve his state of high.
-	
-	\begin{enumerate}[label=(\alph*)]
-		\item The map was created by a sadistic being at 13:00 GMT on the 2nd of January, 1920 in honor of a great man born on that day. He used what us mortals now call the \textit{Fixed Frame}, which is defined as follows:
-		\begin{center}
-			\textit{The origin is the center of the Earth. The positive z-axis is the ray passing through the geographic north pole of the earth. The positive x-axis is in the direction of the vernal equinox, and the y-axis is taken as the right-hand cross product of the x and z axes.}
-		\end{center}
-		The coordinates in the map are $(3580.20,1105.36,5152.67)$ in \textit{km}. Convert these coordinates into latitude-longitude-altitude to find out where the hill is. In your answers, include sketches of both the Fixed Frame and the Latitude Longitude frame, as well as a marking of points. (Assume, \textbf{for the sake of the question,} that the x-axis of the\textit{ Fixed Frame} passes through the intersection of the prime meridian and the equator every 24 hours at 12:00 GMT).
-		
-		\item Bob is way too far away from this point to get to on foot, so he'll be using his teleporter. However, his teleporter requires \textit{Rotating Frame} coordinates, defined as follows:
-		\begin{center}
-			\textit{The origin is the center of the Earth, and the x-axis is in the direction of the intersection between the prime meridian and the equator from the center of the earth. The y-axis is the left-hand cross product of the x and z axes.}
-		\end{center}
-		Convert the latitude-longitude-altitude coordinates from the previous part into the \textit{Rotating Earth} frame. Now, if you were unable to complete the first part of this question, that's alright. The higher beings have decided to give you the latitude-longitude-altitude to a Hill of Slightly-Less-Happiness  $(28\degree21'12.8"N 75\degree35'36.7"E)$, which Bob is okay with. 
-		
-		\pagebreak
-		
-		\item Unfortunately, bob is now stranded in outer space because his teleporter actually works with the \textit{Sun Fixed Frame}, defined as follows:
-		\begin{center}
-			\textit{The z-axis passes through the center of the sun and is perpendicular to the orbital plane. The x-axis is in the direction of the vernal equinox passing through the center of the sun. and the y-axis is the cross product of the x and z axes.}
-		\end{center}
-		He is now \textit{inside the sun}. Given that today is the 17th of January, 2025, find out the new coordinates he should teleport to in order to make it back to orbit around the earth at an altitude of $200km$. \href{https://ssd.jpl.nasa.gov/horizons/app.html#/}{Hint}
-		
-		\item Now that Bob is orbiting earth at an altitude of $200km$ sketch his reference frame so that the $x-axis$ is pointing down towards the earth and the $z-axis$ is in the direction of the orbit. Draw the orbit as well. 
-		
-		[Bonus] Find out how fast he has to spin in order for his eyes to continually point towards earth as he orbits.
-	\end{enumerate}
+	\section*{Question 1: The Hunt for the Cosmic Chronic}
+
+\noindent \textit{Scene opens with Rick drunkenly scribbling on an old map while Morty nervously watches from the side.}
+
+\bigskip
+\noindent \textbf{Rick:} “Morty! MOR-TY! Look at this piece of interstellar gold! Found it in some dusty ass drawer in my lab. Says here it leads to the best f***ing weed on Earth—some primo cosmic kush, Morty. None of that legal dispensary crap. We’re talking divine-grade ganja, Morty. D-I-V-I-N-E! Some cosmic entity mapped this out back on January 2, 1920, at 1420 VLAT—don’t look at me like that, Morty, it’s UTC+10:00, you little idiot.” \\
+
+\noindent \textbf{Morty:} “Wait, wait, what are you even talking about, Rick? Why does the map matter? Can’t we just, like, go there?” \\
+
+\noindent \textbf{Rick:} “Oh, yeah, sure, genius. Just f***ing drive there! Except this hill? Yeah, turns out it’s in the middle of nowhere, off-grid. And the f***ing coordinates? They’re in the Earth-Centered Earth-Fixed Frame. That’s right, Morty, we’re dealing with an Earth-centric frame. Your tiny brain doesn’t even know what that is, does it?! ECEF is, uh… you know… fixed relative to the rotating Earth. It’s got an origin at Earth’s center of mass—big f***ing deal, right? You need to use this to figure out the latitude, longitude, and altitude of this hill. Oh, and while you’re at it, tell me what physical location on Earth this is! Chop-chop, Morty!” \\
+
+\hl{$(a)$ Locate the hill using the ECEF coordinates. Find the latitude, longitude, and altitude. Also, determine the physical location (e.g., name of the place) on Earth.}
+
+\bigskip
+\noindent \textbf{(A few hours pass, Morty calculates furiously, then Rick comes back with a teleporter.)} \\
+
+\noindent \textbf{Rick:} “Good news, Morty! We don’t need to hoof it. We’ve got this sh***y divine teleporter that came with the map. Bad news? The lazy celestial a**hole that made it didn’t bother accounting for Earth’s rotation. So guess what? The teleporter only accepts coordinates in the Earth-Centered Inertial Frame. Yeah, that’s right, the ECI Frame, Morty. You know what ECI is? I’ll tell you what it f***ing is. It’s a frame fixed to the stars, unaffected by Earth’s spinning—like my tolerance for your stupidity. And, conveniently, ECI and ECEF align perfectly every day at 1200 GMT. That means the Prime Meridian and equator line up exactly at noon GMT like some kind of cosmic clockwork.”\\
+
+\noindent \textbf{Morty:} “So, uh, what do you want me to do, Rick?”\\
+
+\noindent \textbf{Rick:} “What do I f***ing want? I want you to convert the hill’s coordinates from ECEF to ECI for right f***ing now! Use today’s time, Morty, and don’t screw it up! We’ve got some intergalactic dankness waiting, and I’m not waiting around for your f***-ups.” \\
+
+\hl{$(b)$ Convert the hill's position intot he Earth-Centered Inertial Frame for today's date and time. Use the assumption that ECEF and ECI align perfectly at 1200 GMT daily.}
+
+\bigskip
+\noindent \textbf{(Morty does the conversion, but when they teleport, they end up in deep space.)} \\
+
+\noindent \textbf{Rick:} “Oh, for the love of fu***** ch**t Morty! You worthless bag of human meat! What did you do? I told you to convert the coordinates to ECI, but you used Earth’s current position, didn’t you? Didn’t you?! Morty, you can’t just convert the coordinates like that! The Earth back then—yeah, you know, 1920, when the map was made—was in a different f***ing position in space! The ECI frame is anchored to the stars, Morty, not the planet spinning on its tiny-ass axis today.”\\
+
+\noindent \textbf{Morty:} “I-I thought it wouldn’t matter, Rick! I mean, how different could it—”\\
+
+\noindent \textbf{Rick:} “Shut up, Morty! I’ll explain, but only because I’m surrounded by idiots. The Earth’s position back then needs to be parameterized in its orbit around the Sun. Picture this, Morty: the Earth’s elliptical orbit, where the origin is at the center of the Sun. The \( z \)-axis is perpendicular to the orbital plane, pointing north, and the \( x \)-axis is toward the Sun at perihelion. Got it?”\\
+
+\noindent \textbf{Morty:} “N-not really…”\\
+
+\noindent \textbf{Rick:} “F*** you*! I’m not done! I’ll calculate Earth’s position back in 1920 and its position now, using celestial mechanics way above your comprehension level. Once I’ve got the Earth’s orientation in 1920, you’ll re-convert those coordinates to ECI from back then and input them into the teleporter! Otherwise, we’re gonna be floating in space until you die, and trust me, I’ve got better things to do!”
+
+\bigskip
+
+\noindent \textbf{Rick:} “And hurry up, Morty! If you f*** this up one more time, I’m dumping you on a random planet and smoking the whole stash myself!” \\
+
+\hl{$(c)$ Parameterize Earth's position in its orbit for January 2nd, 1920 at 1420 VLAT (UTC+10:00). Re-convert the hill's coordiantes to the ECI frame of 1920 and input them into the teleporter.}
+
 	
 	\pagebreak
 	
@@ -160,6 +174,7 @@
 			1,2,3,4,5
 		\end{equation*}
 	\end{enumerate}
-	
-	
+
+\backgroundsetup{contents=\includegraphics{Anant_Logo.png}, opacity=0.1, angle=0, scale=1.5}	
+
 \end{document}
