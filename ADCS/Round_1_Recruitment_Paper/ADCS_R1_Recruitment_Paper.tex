@@ -39,6 +39,8 @@
 
 \geometry{left=0.8in,top=0.5in, right = 0.8in}
 
+\newcommand{\cuspac}{\hspace*{1cm}}
+
 \backgroundsetup{contents=\includegraphics{Anant_Logo.png}, opacity=0.1, angle=0, scale=1.5}
 
 \begin{document}
@@ -76,6 +78,9 @@
 	\pagebreak
 	
 	\newgeometry{left=1in,top=1.25in, right = 1in}
+	
+	\section*{}
+	
 
 	\section*{Question 1 - Bob's Search for the Hill of Happiness}
 	Bob, in his insanity of life, is looking for a mountain, Korok, which claims to have the best weed in the world. However, to find it, he must first decode a map, and achieve his state of high.
@@ -119,7 +124,30 @@
 	\pagebreak
 	
 	\section*{Question 3 - Trying to get back Home}
+	Morty has now unfortuantely gotten separated from Rick in his travel through space. Before he got lost though, Rick gave him a GPS tracker. Although it's a little messed up because of his previous adventures, Morty is able to ping satellites and see the amount of time it takes for the signal to go from Morty to the satellite and back. 
 	
+	Rick however, is a little f*****. He's only given Morty 3 of the four satellite positions relative to him. They are:
+	\begin{align*}
+		A = \{-3141, -5926, 5358\}\\
+		B = \{-9793, 2384, -6264\}\\
+		C = \{3383, -2795, -288\}
+	\end{align*}
+	\begin{enumerate}[label = (\alph*)]
+		\item Morty's first job is to figure out where the fourth satellite is. He knows Rick is enough of an a**h*** to make sure that none of the satellites are in the same octant. He also knows that the $x$, $y$ and $z$ coordinates of the satellite are probably the same. Find the position of the fourth satellite.
+		\item Congratulations on finding the fourth satellite, unfortunately Morty pressed the button labelled don't press, setting off a hidden rocket inside the GPS has suddenly gone off, sending Morty tumbling through the universe. Before the GPS dies, Morty gets two sets of pings off the satellites.
+		\begin{align*}
+			A_1 = 28.21941442 ms \cuspac A_2 = 32.56521822 ms\\
+			B_1 = 37.40539321 ms \cuspac B_2 = 37.48077648 ms\\
+			C_1 = 21.88477974 ms \cuspac C_2 = 35.47581482 ms\\
+			D_1 = 7.603382343 ms \cuspac D_2 = 21.38749482 ms
+		\end{align*}
+		\begin{enumerate}[label = (\roman*)]
+			\item According to the clock, the first ping is at $t_1 = 0$ seconds, and the second is at $t_2 = 5000$ seconds (Rick is a b****). Find the direction vector and the velocity of Morty as he hurtles through space trying not to c*** his pants.
+			\item Turns out, the second ping was actually sent at time $t_2 = 0.1$ seconds. Write down some of your favorite curse words to throw at Rick, and give us the direction vector and velocity of Morty.
+		\end{enumerate}
+		\item Morty has now landed in the orbit of Earth. His GPS splits into two pieces, a sun-sensor and a magnetic field sensor. Rick being Rick has also included a radio for Morty's use. However, for it to work, Morty needs to figure out his relative orientation to the planet. He bravely tapes the sensors to his chest pointing out, and he resigns himself to this horrible fate. Draw an approximate diagram with Morty, and show how he'd aptly describe his orienation to ground control.
+	\end{enumerate}
+
 	
 	\pagebreak
 	\section*{Question 4 - Bob's Cat}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.4) (preloaded format=pdflatex 2023.9.1)  8 JAN 2025 19:19
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.4) (preloaded format=pdflatex 2023.9.1)  8 JAN 2025 21:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1314,24 +1314,24 @@ File: l3backend-pdftex.def 2023-03-30 L3 backend support: PDF output (pdfTeX)
 ) (ADCS_R1_Recruitment_Paper.aux)
 \openout1 = `ADCS_R1_Recruitment_Paper.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
 
 (C:\Users\prana\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
 ii
@@ -1358,16 +1358,16 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 fg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Package hyperref Info: Link coloring OFF on input line 44.
-LaTeX Info: Redefining \celsius on input line 44.
-Package gensymb Info: Faking symbols for \degree and \celsius on input line 44.
+Package hyperref Info: Link coloring OFF on input line 46.
+LaTeX Info: Redefining \celsius on input line 46.
+Package gensymb Info: Faking symbols for \degree and \celsius on input line 46.
 
 
 
 Package gensymb Warning: Not defining \perthousand.
 
-LaTeX Info: Redefining \ohm on input line 44.
-Package gensymb Info: Using \Omega for \ohm on input line 44.
+LaTeX Info: Redefining \ohm on input line 46.
+Package gensymb Info: Using \Omega for \ohm on input line 46.
 
 Package gensymb Warning: Not defining \micro.
 
@@ -1423,19 +1423,19 @@ Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 ))
-LaTeX Font Info:    Trying to load font information for U+msa on input line 49.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 51.
 
 
 (C:\Users\prana\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 49.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 51.
 
 
 (C:\Users\prana\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Overfull \hbox (49.7718pt too wide) in paragraph at lines 62--63
+Overfull \hbox (49.7718pt too wide) in paragraph at lines 64--65
 \OT1/cmr/m/n/12 stress, all-nighters, or harm-ful study prac-tices, un-less do-
 ing so would con-flict with Rules 1 or 2. 
  []
@@ -1443,7 +1443,7 @@ ing so would con-flict with Rules 1 or 2.
 <Anant_Logo.png, id=42, 281.853pt x 211.992pt>
 File: Anant_Logo.png Graphic file (type png)
 <use Anant_Logo.png>
-Package pdftex.def Info: Anant_Logo.png  used on input line 77.
+Package pdftex.def Info: Anant_Logo.png  used on input line 79.
 (pdftex.def)             Requested size: 281.85231pt x 211.99147pt.
 [1
 
@@ -1483,46 +1483,51 @@ Package pdftex.def Info: Anant_Logo.png  used on input line 77.
 
 File: Anant_Logo.png Graphic file (type png)
 <use Anant_Logo.png>
-Package pdftex.def Info: Anant_Logo.png  used on input line 97.
+Package pdftex.def Info: Anant_Logo.png  used on input line 102.
 (pdftex.def)             Requested size: 281.85231pt x 211.99147pt.
  [2
 
 ]
 File: Anant_Logo.png Graphic file (type png)
 <use Anant_Logo.png>
-Package pdftex.def Info: Anant_Logo.png  used on input line 110.
+Package pdftex.def Info: Anant_Logo.png  used on input line 115.
 (pdftex.def)             Requested size: 281.85231pt x 211.99147pt.
  [3]
-<Q2_Transfer_Image.png, id=83, 398.23781pt x 368.1253pt>
+<Q2_Transfer_Image.png, id=84, 398.23781pt x 368.1253pt>
 File: Q2_Transfer_Image.png Graphic file (type png)
 <use Q2_Transfer_Image.png>
-Package pdftex.def Info: Q2_Transfer_Image.png  used on input line 116.
+Package pdftex.def Info: Q2_Transfer_Image.png  used on input line 121.
 (pdftex.def)             Requested size: 318.59067pt x 294.50064pt.
-File: Anant_Logo.png Graphic file (type png)
-<use Anant_Logo.png>
-Package pdftex.def Info: Anant_Logo.png  used on input line 120.
-(pdftex.def)             Requested size: 281.85231pt x 211.99147pt.
- [4 <./Q2_Transfer_Image.png>]
 File: Anant_Logo.png Graphic file (type png)
 <use Anant_Logo.png>
 Package pdftex.def Info: Anant_Logo.png  used on input line 125.
 (pdftex.def)             Requested size: 281.85231pt x 211.99147pt.
+ [4 <./Q2_Transfer_Image.png>]
+File: Anant_Logo.png Graphic file (type png)
+<use Anant_Logo.png>
+Package pdftex.def Info: Anant_Logo.png  used on input line 149.
+(pdftex.def)             Requested size: 281.85231pt x 211.99147pt.
  [5]
 File: Anant_Logo.png Graphic file (type png)
 <use Anant_Logo.png>
-Package pdftex.def Info: Anant_Logo.png  used on input line 137.
+Package pdftex.def Info: Anant_Logo.png  used on input line 153.
 (pdftex.def)             Requested size: 281.85231pt x 211.99147pt.
  [6]
+File: Anant_Logo.png Graphic file (type png)
+<use Anant_Logo.png>
+Package pdftex.def Info: Anant_Logo.png  used on input line 165.
+(pdftex.def)             Requested size: 281.85231pt x 211.99147pt.
+ [7]
 This exam contains 0 questions with 0 parts, 0 subparts, and 0 subsubparts.
 (ADCS_R1_Recruitment_Paper.aux) ) 
 Here is how much of TeX's memory you used:
- 43475 strings out of 476331
- 1026991 string characters out of 5787766
+ 43485 strings out of 476331
+ 1027089 string characters out of 5787766
  1864660 words of memory out of 5000000
- 63162 multiletter control sequences out of 15000+600000
+ 63165 multiletter control sequences out of 15000+600000
  521090 words of font info for 66 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 94i,12n,99p,750b,906s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 94i,12n,99p,750b,908s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/prana/AppData/Local/Programs/MiKTeX/
 fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/prana/AppData/Local/Program
 s/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/prana/AppData/Loca
@@ -1534,9 +1539,9 @@ fb><C:/Users/prana/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm
 /cmsy10.pfb><C:/Users/prana/AppData/Local/Programs/MiKTeX/fonts/type1/public/am
 sfonts/cm/cmsy8.pfb><C:/Users/prana/AppData/Local/Programs/MiKTeX/fonts/type1/p
 ublic/amsfonts/cm/cmti12.pfb>
-Output written on ADCS_R1_Recruitment_Paper.pdf (6 pages, 256685 bytes).
+Output written on ADCS_R1_Recruitment_Paper.pdf (7 pages, 263437 bytes).
 PDF statistics:
- 149 PDF objects out of 1000 (max. 8388607)
- 30 named destinations out of 1000 (max. 500000)
+ 165 PDF objects out of 1000 (max. 8388607)
+ 37 named destinations out of 1000 (max. 500000)
  167 words of extra memory for PDF output out of 10000 (max. 10000000)
 
