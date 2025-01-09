@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.8.2)  8 JAN 2025 22:27
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.8.2)  9 JAN 2025 20:07
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1248,40 +1248,201 @@ Package: theorem 2014/10/28 v2.2c Theorem extension package (FMi)
 (/usr/local/texlive/2022/texmf-dist/tex/latex/tools/thp.sty
 File: thp.sty 2014/10/28 v2.2c Theorem extension package (FMi)
 ))
-(./ADCS_R1_Recruitment_Paper.aux)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2022/03/01 v3.6b Customizing captions (AR)
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2022/03/17 v2.3b caption3 kernel (AR)
+\caption@tempdima=\dimen341
+\captionmargin=\dimen342
+\caption@leftmargin=\dimen343
+\caption@rightmargin=\dimen344
+\caption@width=\dimen345
+\caption@indent=\dimen346
+\caption@parindent=\dimen347
+\caption@hangindent=\dimen348
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count406
+\c@continuedfloat=\count407
+Package caption Info: hyperref package is loaded.
+Package caption Info: listings package is loaded.
+)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibraryarrows.code.tex
+File: tikzlibraryarrows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.
+code.tex
+File: pgflibraryarrows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\arrowsize=\dimen349
+))
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarydecorations.markings.code.tex
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/libraries/decorations/pgfli
+brarydecorations.markings.code.tex))
+(/usr/local/texlive/2022/texmf-dist/tex/latex/fontawesome/fontawesome.sty
+Package: fontawesome 2016/05/15 v4.6.3.1 font awesome icons
+
+(/usr/local/texlive/2022/texmf-dist/tex/generic/iftex/ifxetex.sty
+Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
+)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/iftex/ifluatex.sty
+Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/fontawesome/fontawesomesymbols-ge
+neric.tex)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/fontawesome/fontawesomesymbols-pd
+ftex.tex))
+(/usr/local/texlive/2022/texmf-dist/tex/latex/hobby/tikzlibraryhobby.code.tex
+(/usr/local/texlive/2022/texmf-dist/tex/latex/hobby/pgflibraryhobby.code.tex
+(/usr/local/texlive/2022/texmf-dist/tex/latex/hobby/hobby.code.tex
+(/usr/local/texlive/2022/texmf-dist/tex/latex/hobby/pml3array.sty
+\l_array_base_int=\count408
+\l_array_top_int=\count409
+\l_array_tmp_int=\count410
+\g_array_base_int=\count411
+)
+\l_hobby_npoints_int=\count412
+\l_hobby_draw_int=\count413
+)))
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarybackgrounds.code.tex
+File: tikzlibrarybackgrounds.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@layerbox@background=\box134
+\pgf@layerboxsaved@background=\box135
+)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarypositioning.code.tex
+File: tikzlibrarypositioning.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/tikzsymbols/tikzsymbols.sty
+Package: tikzsymbols 2021/12/14 v4.12a Some symbols created using tikz and LaTe
+X3.
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
+Package: l3keys2e 2022-01-12 LaTeX2e option processing using LaTeX3 keys
+)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarytrees.code.tex
+File: tikzlibrarytrees.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+\l__tikzsymbols_Moai_thickness_dim=\dimen350
+\l__tikzsymbols_Kochtopf_nr_arguments_int=\count414
+\l__tikzsymbols_Bratpfanne_nr_arguments_int=\count415
+\l__tikzsymbols_Schneebesen_nr_arguments_int=\count416
+\l__tikzsymbols_Sieb_nr_arguments_int=\count417
+\l__tikzsymbols_Purierstab_nr_arguments_int=\count418
+\l__tikzsymbols_Dreizack_nr_arguments_int=\count419
+\l__tikzsymbols_Backblech_nr_arguments_int=\count420
+\l__tikzsymbols_Ofen_nr_arguments_int=\count421
+\l__tikzsymbols_Pfanne_nr_arguments_int=\count422
+\l__tikzsymbols_Herd_nr_arguments_int=\count423
+\l__tikzsymbols_Saftpresse_nr_arguments_int=\count424
+\l__tikzsymbols_Schussel_nr_arguments_int=\count425
+\l__tikzsymbols_Schaler_nr_arguments_int=\count426
+\l__tikzsymbols_Reibe_nr_arguments_int=\count427
+\l__tikzsymbols_Flasche_nr_arguments_int=\count428
+\l__tikzsymbols_Nudelholz_nr_arguments_int=\count429
+\l__tikzsymbols_Knoblauchpresse_nr_arguments_int=\count430
+\l__tikzsymbols_Sadey_nr_arguments_int=\count431
+\l__tikzsymbols_dSadey_nr_arguments_int=\count432
+\l__tikzsymbols_Changey_nr_arguments_int=\count433
+\l__tikzsymbols_dChangey_nr_arguments_int=\count434
+\l__tikzsymbols_cChangey_nr_arguments_int=\count435
+\l__tikzsymbols_dcChangey_nr_arguments_int=\count436
+\l__tikzsymbols_Annoey_nr_arguments_int=\count437
+\l__tikzsymbols_dAnnoey_nr_arguments_int=\count438
+\l__tikzsymbols_Smiley_nr_arguments_int=\count439
+\l__tikzsymbols_dSmiley_nr_arguments_int=\count440
+\l__tikzsymbols_Laughey_nr_arguments_int=\count441
+\l__tikzsymbols_dLaughey_nr_arguments_int=\count442
+\l__tikzsymbols_Neutrey_nr_arguments_int=\count443
+\l__tikzsymbols_dNeutrey_nr_arguments_int=\count444
+\l__tikzsymbols_Winkey_nr_arguments_int=\count445
+\l__tikzsymbols_oldWinkey_nr_arguments_int=\count446
+\l__tikzsymbols_dWinkey_nr_arguments_int=\count447
+\l__tikzsymbols_olddWinkey_nr_arguments_int=\count448
+\l__tikzsymbols_Sey_nr_arguments_int=\count449
+\l__tikzsymbols_dSey_nr_arguments_int=\count450
+\l__tikzsymbols_Xey_nr_arguments_int=\count451
+\l__tikzsymbols_dXey_nr_arguments_int=\count452
+\l__tikzsymbols_Innocey_nr_arguments_int=\count453
+\l__tikzsymbols_wInnocey_nr_arguments_int=\count454
+\l__tikzsymbols_dInnocey_nr_arguments_int=\count455
+\l__tikzsymbols_Cooley_nr_arguments_int=\count456
+\l__tikzsymbols_dCooley_nr_arguments_int=\count457
+\l__tikzsymbols_Tongey_nr_arguments_int=\count458
+\l__tikzsymbols_dTongey_nr_arguments_int=\count459
+\l__tikzsymbols_Nursey_nr_arguments_int=\count460
+\l__tikzsymbols_dNursey_nr_arguments_int=\count461
+\l__tikzsymbols_Vomey_nr_arguments_int=\count462
+\l__tikzsymbols_dVomey_nr_arguments_int=\count463
+\l__tikzsymbols_Walley_nr_arguments_int=\count464
+\l__tikzsymbols_rWalley_nr_arguments_int=\count465
+\l__tikzsymbols_dWalley_nr_arguments_int=\count466
+\l__tikzsymbols_drWalley_nr_arguments_int=\count467
+\l__tikzsymbols_Cat_nr_arguments_int=\count468
+\l__tikzsymbols_SchrodingersCat_nr_arguments_int=\count469
+\l__tikzsymbols_Ninja_nr_arguments_int=\count470
+\l__tikzsymbols_dNinja_nr_arguments_int=\count471
+\l__tikzsymbols_Sleepey_nr_arguments_int=\count472
+\l__tikzsymbols_dSleepey_nr_arguments_int=\count473
+\l__tikzsymbols_Maskey_nr_arguments_int=\count474
+\l__tikzsymbols_NiceReapey_nr_arguments_int=\count475
+\l__tikzsymbols_Strichmaxerl_nr_arguments_int=\count476
+\l__tikzsymbols_Person_nr_arguments_int=\count477
+\l__tikzsymbols_Heart_nr_arguments_int=\count478
+\l__tikzsymbols_dHeart_nr_arguments_int=\count479
+\l__tikzsymbols_HeartBroken_nr_arguments_int=\count480
+\l__tikzsymbols_Candle_nr_arguments_int=\count481
+\l__tikzsymbols_Fire_nr_arguments_int=\count482
+\l__tikzsymbols_Coffeecup_nr_arguments_int=\count483
+\l__tikzsymbols_Chair_nr_arguments_int=\count484
+\l__tikzsymbols_Bed_nr_arguments_int=\count485
+\l__tikzsymbols_Tribar_nr_arguments_int=\count486
+\l__tikzsymbols_Moai_nr_arguments_int=\count487
+\l__tikzsymbols_Snowman_nr_arguments_int=\count488
+\l__tikzsymbols_BasicTree_nr_arguments_int=\count489
+\l__tikzsymbols_WorstTree_nr_arguments_int=\count490
+\l__tikzsymbols_Springtree_nr_arguments_int=\count491
+\l__tikzsymbols_Summertree_nr_arguments_int=\count492
+\l__tikzsymbols_Autumntree_nr_arguments_int=\count493
+\l__tikzsymbols_Wintertree_nr_arguments_int=\count494
+) (./ADCS_R1_Recruitment_Paper.aux)
 \openout1 = `ADCS_R1_Recruitment_Paper.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
 
 (/usr/local/texlive/2022/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count406
-\scratchdimen=\dimen341
-\scratchbox=\box134
-\nofMPsegments=\count407
-\nofMParguments=\count408
+\scratchcounter=\count495
+\scratchdimen=\dimen351
+\scratchbox=\box136
+\nofMPsegments=\count496
+\nofMParguments=\count497
 \everyMPshowfont=\toks69
-\MPscratchCnt=\count409
-\MPscratchDim=\dimen342
-\MPnumerator=\count410
-\makeMPintoPDFobject=\count411
+\MPscratchCnt=\count498
+\MPscratchDim=\dimen352
+\MPnumerator=\count499
+\makeMPintoPDFobject=\count500
 \everyMPtoPDFconversion=\toks70
 ) (/usr/local/texlive/2022/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -1292,23 +1453,23 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-Package hyperref Info: Link coloring OFF on input line 47.
-LaTeX Info: Redefining \ref on input line 47.
-LaTeX Info: Redefining \pageref on input line 47.
-LaTeX Info: Redefining \nameref on input line 47.
-LaTeX Info: Redefining \celsius on input line 47.
-Package gensymb Info: Faking symbols for \degree and \celsius on input line 47.
+Package hyperref Info: Link coloring OFF on input line 60.
+LaTeX Info: Redefining \ref on input line 60.
+LaTeX Info: Redefining \pageref on input line 60.
+LaTeX Info: Redefining \nameref on input line 60.
+LaTeX Info: Redefining \celsius on input line 60.
+Package gensymb Info: Faking symbols for \degree and \celsius on input line 60.
 
 
 
 Package gensymb Warning: Not defining \perthousand.
 
-LaTeX Info: Redefining \ohm on input line 47.
-Package gensymb Info: Using \Omega for \ohm on input line 47.
+LaTeX Info: Redefining \ohm on input line 60.
+Package gensymb Info: Using \Omega for \ohm on input line 60.
 
 Package gensymb Warning: Not defining \micro.
 
-\c@lstlisting=\count412
+\c@lstlisting=\count501
 Package pgfplots notification 'compat/show suggested version=true': document ha
 s been generated with the most recent feature set (\pgfplotsset{compat=1.18}).
 
@@ -1354,19 +1515,21 @@ Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 )
-LaTeX Font Info:    Trying to load font information for U+msa on input line 52.
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 65.
 
 
 (/usr/local/texlive/2022/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 52.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 65.
 
 
 (/usr/local/texlive/2022/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Overfull \hbox (49.7718pt too wide) in paragraph at lines 65--66
+Overfull \hbox (49.7718pt too wide) in paragraph at lines 78--79
 \OT1/cmr/m/n/12 stress, all-nighters, or harm-ful study prac-tices, un-less do-
 ing so would con-flict with Rules 1 or 2. 
  []
@@ -1374,7 +1537,7 @@ ing so would con-flict with Rules 1 or 2.
 <Anant_Logo.png, id=43, 281.853pt x 211.992pt>
 File: Anant_Logo.png Graphic file (type png)
 <use Anant_Logo.png>
-Package pdftex.def Info: Anant_Logo.png  used on input line 80.
+Package pdftex.def Info: Anant_Logo.png  used on input line 93.
 (pdftex.def)             Requested size: 281.85231pt x 211.99147pt.
 [1
 
@@ -1413,31 +1576,6 @@ _Logo.png>]
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 89--90
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 91--92
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 93--94
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 98--99
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 100--101
-
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 102--103
 
  []
@@ -1447,14 +1585,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 104--105
 
  []
 
-File: Anant_Logo.png Graphic file (type png)
-<use Anant_Logo.png>
-Package pdftex.def Info: Anant_Logo.png  used on input line 105.
-(pdftex.def)             Requested size: 281.85231pt x 211.99147pt.
-[2
 
-]
-Underfull \hbox (badness 10000) in paragraph at lines 109--110
+Underfull \hbox (badness 10000) in paragraph at lines 106--107
 
  []
 
@@ -1478,13 +1610,44 @@ Underfull \hbox (badness 10000) in paragraph at lines 117--118
 
  []
 
+File: Anant_Logo.png Graphic file (type png)
+<use Anant_Logo.png>
+Package pdftex.def Info: Anant_Logo.png  used on input line 118.
+(pdftex.def)             Requested size: 281.85231pt x 211.99147pt.
+[2
 
-Underfull \hbox (badness 10000) in paragraph at lines 123--124
+]
+Underfull \hbox (badness 10000) in paragraph at lines 122--123
 
  []
 
 
-Overfull \hbox (13.21414pt too wide) in paragraph at lines 125--126
+Underfull \hbox (badness 10000) in paragraph at lines 124--125
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 126--127
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 128--129
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 130--131
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 136--137
+
+ []
+
+
+Overfull \hbox (13.21414pt too wide) in paragraph at lines 138--139
 [][][][] [][][]\OT1/cmr/m/n/12 Pa[]-[]ram[]-[]e[]-[]ter[]-[]ize[] [][][]Earth's
 [] [][][]po[]-[]si[]-[]tion[] [][][]in[] [][][]its[] [][][]or[]-[]bit[] [][][]f
 or[] [][][]Jan[]-[]uary[] [][][]2nd,[] [][][]1920[] [][][]at[] [][][]1420[] [][
@@ -1493,57 +1656,65 @@ or[] [][][]Jan[]-[]uary[] [][][]2nd,[] [][][]1920[] [][][]at[] [][][]1420[] [][
 
 File: Anant_Logo.png Graphic file (type png)
 <use Anant_Logo.png>
-Package pdftex.def Info: Anant_Logo.png  used on input line 129.
+Package pdftex.def Info: Anant_Logo.png  used on input line 142.
 (pdftex.def)             Requested size: 281.85231pt x 211.99147pt.
 [3]
-<Q2_Transfer_Image.png, id=77, 398.23781pt x 368.1253pt>
-File: Q2_Transfer_Image.png Graphic file (type png)
-<use Q2_Transfer_Image.png>
-Package pdftex.def Info: Q2_Transfer_Image.png  used on input line 135.
-(pdftex.def)             Requested size: 318.59067pt x 294.50064pt.
+LaTeX Font Info:    Trying to load font information for U+fontawesometwo on inp
+ut line 166.
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/fontawesome/ufontawesometwo.fd
+File: ufontawesometwo.fd 2016/05/22 Font definitions for U/fontawesometwo.
+)
+\g__tikzsymbols_savebox_F_1 0.5 0 rg 1 0.5 0 RG_12_Fire_1_box=\box137
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 File: Anant_Logo.png Graphic file (type png)
 <use Anant_Logo.png>
-Package pdftex.def Info: Anant_Logo.png  used on input line 139.
+Package pdftex.def Info: Anant_Logo.png  used on input line 248.
 (pdftex.def)             Requested size: 281.85231pt x 211.99147pt.
- [4 <./Q2_Transfer_Image.png>]
+[4]
 File: Anant_Logo.png Graphic file (type png)
 <use Anant_Logo.png>
-Package pdftex.def Info: Anant_Logo.png  used on input line 163.
+Package pdftex.def Info: Anant_Logo.png  used on input line 266.
 (pdftex.def)             Requested size: 281.85231pt x 211.99147pt.
  [5]
 File: Anant_Logo.png Graphic file (type png)
 <use Anant_Logo.png>
-Package pdftex.def Info: Anant_Logo.png  used on input line 167.
+Package pdftex.def Info: Anant_Logo.png  used on input line 276.
 (pdftex.def)             Requested size: 281.85231pt x 211.99147pt.
  [6]
 File: Anant_Logo.png Graphic file (type png)
 <use Anant_Logo.png>
-Package pdftex.def Info: Anant_Logo.png  used on input line 180.
+Package pdftex.def Info: Anant_Logo.png  used on input line 289.
 (pdftex.def)             Requested size: 281.85231pt x 211.99147pt.
  [7]
 This exam contains 0 questions with 0 parts, 0 subparts, and 0 subsubparts.
 (./ADCS_R1_Recruitment_Paper.aux) ) 
 Here is how much of TeX's memory you used:
- 43333 strings out of 478268
- 1014598 string characters out of 5846348
- 1439325 words of memory out of 5000000
- 60790 multiletter control sequences out of 15000+600000
- 478375 words of font info for 63 fonts, out of 8000000 for 9000
+ 48333 strings out of 478268
+ 1119495 string characters out of 5846348
+ 1560605 words of memory out of 5000000
+ 65723 multiletter control sequences out of 15000+600000
+ 478691 words of font info for 64 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 91i,12n,99p,785b,906s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2022/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2022/texmf-dist/fonts/typ
-e1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type
-1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/pu
-blic/amsfonts/cm/cmr17.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmr8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmsy10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmti12.pfb>
-Output written on ADCS_R1_Recruitment_Paper.pdf (7 pages, 239494 bytes).
+ 91i,13n,117p,785b,1340s stack positions out of 10000i,1000n,20000p,200000b,200000s
+{/usr/local/texlive/2022/texmf-dist/fonts/en
+c/dvips/fontawesome/fontawesometwo.enc}</usr/local/texlive/2022/texmf-dist/font
+s/type1/public/fontawesome/FontAwesome.pfb></usr/local/texlive/2022/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2022/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2022/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2022/texmf-dist/font
+s/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2022/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2022/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmti12.pfb>
+Output written on ADCS_R1_Recruitment_Paper.pdf (7 pages, 187661 bytes).
 PDF statistics:
- 153 PDF objects out of 1000 (max. 8388607)
- 99 compressed objects within 1 object stream
- 32 named destinations out of 1000 (max. 500000)
- 167 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 162 PDF objects out of 1000 (max. 8388607)
+ 106 compressed objects within 2 object streams
+ 34 named destinations out of 1000 (max. 500000)
+ 168 words of extra memory for PDF output out of 10000 (max. 10000000)
 

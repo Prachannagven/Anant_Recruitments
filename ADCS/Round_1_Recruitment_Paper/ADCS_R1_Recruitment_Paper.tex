@@ -38,6 +38,19 @@
 \usepackage{bookmark}
 \usepackage{theorem}
 
+\usepackage{caption}
+
+
+\usetikzlibrary{arrows, decorations.markings}
+\usepackage{fontawesome}
+
+\usetikzlibrary{hobby,backgrounds,positioning}
+\usepackage{tikzsymbols}
+\tikzsymbolsset{%
+  after-symbol={},
+}
+
+
 \geometry{left=0.8in,top=0.5in, right = 0.8in}
 
 \newcommand{\cuspac}{\hspace*{1cm}}
@@ -108,7 +121,7 @@
 \bigskip
 \noindent \textbf{(Morty does the conversion, but when they teleport, they end up in deep space.)} \\
 
-\noindent \textbf{Rick:} “Oh, for the love of fu***** ch**t Morty! You worthless bag of human meat! What did you do? I told you to convert the coordinates to ECI, but you used Earth’s current position, didn’t you? Didn’t you?! Morty, you can’t just convert the coordinates like that! The Earth back then—yeah, you know, 1920, when the map was made—was in a different f***ing position in space! The ECI frame is anchored to the stars, Morty, not the planet spinning on its tiny-ass axis today.”\\
+\noindent \textbf{Rick:} “Oh, for the love of fu***** ch***t Morty! You worthless bag of human meat! What did you do? I told you to convert the coordinates to ECI, but you used Earth’s current position, didn’t you? Didn’t you?! Morty, you can’t just convert the coordinates like that! The Earth back then—yeah, you know, 1920, when the map was made—was in a different f***ing position in space! The ECI frame is anchored to the stars, Morty, not the planet spinning on its tiny-ass axis today.”\\
 
 \noindent \textbf{Morty:} “I-I thought it wouldn’t matter, Rick! I mean, how different could it—”\\
 
@@ -127,13 +140,109 @@
 	
 	\pagebreak
 	
-	\section*{Question 2 - Bob's Fever Dream}
-	Now that the weed has entered Bob's system, he's drifted into another plane. He's spiralling off of earth's surface and is now in an orbit with an altitude of $200km$. However, he wants to settle into an orbit at an altitude of $4206km$, using the least amount of energy. With his tiny rocket, he can only apply a burn of any impulse at three points in time. Find out the orbital transition and draw a diagram of where the burns should be made, and how much impulse should be provided. Hint:
+	\section*{Question 2 -}
+		
+	\begin{center}
 	
-	\begin{figure}[h!]
-		\centering
-		\includegraphics[scale = 0.8]{Q2_Transfer_Image.png}
-	\end{figure}
+	\begin{figure}[h]
+	\centering
+	\begin{tikzpicture}[ scale=1.50,
+    >=triangle 45,
+    mydeco/.style = {
+        decoration = {
+            markings, 
+            mark = at position #1 with {
+                \node[scale=1.2, rotate=\pgfdecoratedangle+140] {\faRocket};
+            }
+        }
+    }
+]
+                      
+    \filldraw[top color = blue!75!green, bottom color = blue!60, opacity = .75] (0,0) circle (.5cm);
+    
+    \draw[postaction = {mydeco=-0.2416 ,decorate}, 
+          postaction = {mydeco=-0.58333 ,decorate},
+          postaction = {mydeco=-0.0075 ,decorate}]
+          (0,0) circle (2.5cm);
+
+    \draw[postaction = {mydeco=-0.375 ,decorate}, 
+          postaction = {mydeco=-0.875 ,decorate}] (0,0) circle (1cm);
+    \draw (0.65,-1.2) node [anchor = east, scale = 0.8]  {Initial Orbit};
+    
+
+    \draw[postaction = {mydeco=0.5 ,decorate, color=black}, 
+          postaction = {mydeco=0.9975 ,decorate, color=black}, color = orange] (0:2.5) arc (0:180:1.75cm and 1.3cm);
+     \draw (0.65,2.7) node [anchor = east, scale = 0.8]  {Final Orbit};
+    
+    \draw (-1,-0.165) node[rotate=180, color=orange, scale = 1.5] {\Fire};
+    \draw (-1,0) node [anchor = east, scale = 0.75, color=orange]  {$1^{st} \ Burn \ \ $};
+    \draw (2.5,0.05) node[rotate=0, color=orange, scale = 1.5] {\Fire};
+    \draw (2.5,0) node [anchor = east, scale = 0.75, color=orange]  {$2^{nd} \ Burn \ \ $};
+
+
+	\end{tikzpicture}
+\caption{Hohhman Transfer}
+\end{figure}
+\end{center}
+
+\begin{center}
+	
+	\begin{figure}[h]
+	\centering
+
+\begin{tikzpicture}[ scale=1.50,
+    >=triangle 45,
+    mydeco/.style = {
+        decoration = {
+            markings, 
+            mark = at position #1 with {
+                \node[scale=1.2, rotate=\pgfdecoratedangle+140] {\faRocket};
+            }
+        }
+    }
+]
+                      
+    \filldraw[top color = blue!75!green, bottom color = blue!60, opacity = .75] (0,0) circle (.5cm);
+    
+    \draw[ color = teal] (0:5) arc (0:-180:3.75cm and 3.2cm);
+    %\draw[ color = teal, dashed] (0:5) arc (0:180:3.75cm and 3.2cm);
+    \draw (2,-3.35) node [anchor = east, scale = 0.8, text=teal]  {Transfer Orbit 2};
+    
+        \draw[ 
+          postaction = {mydeco=0.9975 ,decorate, color=black},postaction = {mydeco=0 ,decorate, color=black}, color = orange] (0:5) arc (0:180:3cm and 1.7cm);
+         % \draw[color = orange, dashed] (0:5) arc (0:-180:3cm and 1.7cm);
+          \draw (3.5,1.8) node [anchor = east, scale = 0.8, text=orange]  {Transfer Orbit 1};
+ 
+    
+    \draw[postaction = {mydeco=-0.2416 ,decorate}, 
+          postaction = {mydeco=-0.68333 ,decorate},
+          postaction = {mydeco=-0.5 ,decorate},]
+          (0,0) circle (2.5cm);
+
+    \draw[postaction = {mydeco=-0.15 ,decorate}, 
+          postaction = {mydeco=-0.75 ,decorate}] (0,0) circle (1cm);
+    \draw (1.65,-1) node [anchor = east, scale = 0.8]  {Initial Orbit};
+    
+
+
+          
+          
+          
+     \draw (1.65,2.55) node [anchor = east, scale = 0.8]  {Final Orbit};
+    
+    \draw (-1,-0.15) node[rotate=180, color=orange, scale = 1.5] {\Fire};
+    \draw (-1,0) node [anchor = east, scale = 0.75, color=orange]  {$1^{st} \ Burn \ \ $};
+    \draw (5,0.15) node[rotate=0, color=orange, scale = 1.5] {\Fire};
+    \draw (5,0) node [anchor = east, scale = 0.75, color=orange]  {$2^{nd} \ Burn \ \ $};
+    \draw (-2.5,-0.165) node[rotate=180, color=orange, scale = 1.5] {\Fire};
+    \draw (-2.5,0) node [anchor = east, scale = 0.75, color=orange]  {$3^{rd} \ Burn \ \ $};
+    
+
+
+	\end{tikzpicture}
+\caption{Bi-Elliptic Transfer}
+\end{figure}
+\end{center}
 	
 	\pagebreak
 	
