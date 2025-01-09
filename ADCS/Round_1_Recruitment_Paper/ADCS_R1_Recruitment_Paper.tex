@@ -138,15 +138,14 @@
 	\pagebreak
 	
 	\section*{Question 3 - Trying to get back Home}
-	Morty has now unfortuantely gotten separated from Rick in his travel through space. Before he got lost though, Rick gave him a GPS tracker. Although it's a little messed up because of his previous adventures, Morty is able to ping satellites and see the amount of time it takes for the signal to go from Morty to the satellite and back. 
-	
+	Morty has now unfortuantely gotten separated from Rick in his travel through space. Before he got lost though, Rick gave him a GPS tracker. Although it's a little messed up because of his previous adventures, Morty is able to ping satellites and see the amount of time it takes for the signal to go from Morty to the satellite and back. \\
 	Rick however, is a little f*****. He's only given Morty 3 of the four satellite positions. They are:
 	\begin{align*}
 		A = \{-3141, -5926, 5358\}\\
 		B = \{-9793, 2384, -6264\}\\
 		C = \{3383, -2795, -288\}
 	\end{align*}
-	(Note that these positions are defined in some absolute frame that we don't care about for this question.)
+	(Note that the coordinates defined are in an absolute frame which we ignore for simplicity.)
 	\begin{enumerate}[label = (\alph*)]
 		\item Morty's first job is to figure out where he is and where the fourth satellite is. He knows Rick is enough of an a**h*** to make sure that none of the satellites are in the same octant. He also knows that the $x$, $y$ and $z$ coordinates of the satellite are probably the same. The ping times off of the four satellites are:
 		\begin{align*}
@@ -162,11 +161,8 @@
 			C_1 = 21.88477974 ms \cuspac C_2 = 35.47581482 ms\\
 			D_1 = 7.603382343 ms \cuspac D_2 = 21.38749482 ms
 		\end{align*}
-		\vspace{5mm}
-		\begin{enumerate}[label = (\roman*)]
-			\item According to the clock, the first ping is at $t_1 = 0$ seconds, and the second is at $t_2 = 5000$ seconds (Rick is a b****). Find the direction vector and the velocity of Morty as he hurtles through space trying not to c*** his pants.
-			\item Turns out, the second ping was actually sent at time $t_2 = 0.1$ seconds. Write down some of your favorite curse words to throw at Rick, and give us the direction vector and velocity of Morty.
-		\end{enumerate}
+		According to the clock, the first ping is at $t_1 = 0$ seconds, and the second is at $t_2 = 5000$ seconds (Rick is a b****). Find the direction vector and the velocity of Morty as he hurtles through space trying not to c*** his pants.
+		\item Now, we'll hop into the theoretical world for a bit. Given the four satellites, the starting location and ending location, as well as the velocity that Morty is moving at, write out expressions that describe how much time a ping to a particular satellite might take. Assume that the velocity is in the order of $10^7 m/s$
 		\item Morty has now landed in the orbit of Earth. His GPS splits into two pieces, a sun-sensor and a magnetic field sensor. Rick being Rick has also included a radio for Morty's use. However, for it to work, Morty needs to figure out his relative orientation to the planet. He bravely tapes the sensors to his chest pointing out, and he resigns himself to this horrible fate. Draw an approximate diagram with Morty, and show how he'd aptly describe his orienation to ground control.
 	\end{enumerate}
 
