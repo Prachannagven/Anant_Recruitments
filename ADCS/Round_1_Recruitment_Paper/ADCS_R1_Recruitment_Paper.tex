@@ -304,35 +304,74 @@ Contact Details:
 	
 	\pagebreak
 	
-	\section*{Question 3 - Trying to get back Home}
-	Morty has now unfortuantely gotten separated from Rick in his travel through space. Before he got lost though, Rick gave him a GPS tracker. Although it's a little messed up because of his previous adventures, Morty is able to ping satellites and see the amount of time it takes for the signal to go from Morty to the satellite and back. \\
-	Rick however, is a little f*****. He's only given Morty 3 of the four satellite positions. They are:
-	\begin{align*}
-		A = \{-3141, -5926, 5358\}\\
-		B = \{-9793, 2384, -6264\}\\
-		C = \{3383, -2795, -288\}
-	\end{align*}
-	(Note that the coordinates defined are in an absolute frame which we ignore for simplicity.)
-	\begin{enumerate}[label = (\alph*)]
-		\item Morty's first job is to figure out where he is and where the fourth satellite is. He knows Rick is enough of an a**h*** to make sure that none of the satellites are in the same octant. He also knows that the $x$, $y$ and $z$ coordinates of the satellite are probably the same. The ping times off of the four satellites are:
-		\begin{align*}
-			t_A = 23.90987365 ms \\
-			t_B = 51.57336220 ms \\
-			t_C = 21.79227717 ms \\
-			t_D = 14.96656189 ms
-		\end{align*}
-		\item Congratulations on finding the fourth satellite, unfortunately Morty pressed the button labelled don't press, setting off a hidden rocket inside the GPS has suddenly gone off, sending Morty tumbling through the universe. Before the GPS dies, Morty gets two sets of pings off the satellites.
-		\begin{align*}
-			A_1 = 28.21941442 ms \cuspac A_2 = 32.56521822 ms\\
-			B_1 = 37.40539321 ms \cuspac B_2 = 37.48077648 ms\\
-			C_1 = 21.88477974 ms \cuspac C_2 = 35.47581482 ms\\
-			D_1 = 7.603382343 ms \cuspac D_2 = 21.38749482 ms
-		\end{align*}
-		According to the clock, the first ping is at $t_1 = 0$ seconds, and the second is at $t_2 = 5000$ seconds (Rick is a b****). Find the direction vector and the velocity of Morty as he hurtles through space trying not to c*** his pants.
-		\item Now, we'll hop into the theoretical world for a bit. Given the four satellites, the starting location and ending location, as well as the velocity that Morty is moving at, write out expressions that describe how much time a ping to a particular satellite might take. Assume that the velocity is in the order of $10^7 m/s$
-		\item Morty has now landed in the orbit of Earth. His GPS splits into two pieces, a sun-sensor and a magnetic field sensor. Rick being Rick has also included a radio for Morty's use. However, for it to work, Morty needs to figure out his relative orientation to the planet. He bravely tapes the sensors to his chest pointing out, and he resigns himself to this horrible fate. Draw an approximate diagram with Morty, and show how he'd aptly describe his orienation to ground control.
-	\end{enumerate}
 
+\section*{Question 3: Lost in Space, Screwed by Science (and Worm Goo)}
+
+\noindent \textbf{(Morty is floating in space, clutching the half-broken GPS tracker that Rick gave him before they were separated. A flickering hologram of Rick is berating him for poking a dangerous glowing space worm.)} 
+
+\bigskip
+\noindent \textbf{Morty:} “Oh man, Rick! I-I don’t know where I am! One second we were fine, and then the worm sucked us into its dimension, and now I’m floating in space! HELP!” \bigskip
+
+\noindent \textbf{Rick (Hologram):} “First off, Morty, I TOLD YOU NOT TO TOUCH THE WORM! But nooo, you couldn’t resist. And now you’re stranded in deep space, tumbling around like a f***ing cosmic piñata. Great job, Morty. Just great.” \bigskip
+
+\noindent \textbf{Morty:} “I-I thought the worm was harmless, Rick! It was just sitting there glowing! You didn’t tell me it could explode into a vortex!” 
+
+\bigskip
+
+\noindent \textbf{Rick:} “You’re gonna have to use that busted GPS I left you. It’s not much, but it’s all you’ve got. Alright, Morty, let’s start with something simple. The GPS tracker I gave you has a pinging system. It sends a signal to satellites, and they bounce it back. Basic f***ing physics. I gave you the coordinates of three satellites before you decided to turn a worm into a dimension grenade. Here they are:”
+
+\begin{center}
+Satellite A: (-3141, -5926, 5358) \\
+Satellite B: (-9793, 2384, -6264) \\
+Satellite C: (3383, -2795, -0288)
+\end{center}
+
+
+\noindent \textbf{Rick:} “But here’s the thing: there’s a fourth satellite that I didn’t give you the coordinates for because—let’s be honest—you don’t deserve them. You’re gonna have to figure out its position. Lucky for you, I made sure none of the satellites are in the same octant. Oh, and for the missing satellite, symmetry is key—its \(x, y, z\) coordinates are probably all the same.” \bigskip
+
+\noindent \textbf{Morty:} “B-but Rick, how do I even know where I am?!” \bigskip
+
+\noindent \textbf{Rick:} “Oh my god, Morty, are you even listening? I gave you ping times for all four satellites! Here they are:”
+\[
+t_A = 23.90987365 \, \text{ms}, \quad t_B = 51.57336220 \, \text{ms}, \quad t_C = 21.79227717 \, \text{ms}, \quad t_D = 14.96656189 \, \text{ms}.
+\]
+
+\hl{$(a)$ Use all of the given data to figure out two things: $(i)$ where Morty is and $(ii)$ where the fourth satellite is.}
+
+\bigskip
+
+\noindent \textbf{(After managing to calculate his position and the missing satellite’s coordinates, Morty accidentally triggers the GPS’s emergency protocol. The tracker sparks violently and blurts out: \textcolor{red}{“WORM CONTAMINATION DETECTED! INITIATING SELF-CLEANSE!”})}  \bigskip
+
+\noindent \textbf{Morty:} “AHHHHH! Rick! The GPS is going crazy!”  \bigskip
+
+\noindent \textbf{Rick (Hologram):} “Oh, brilliant, Morty. You managed to infect the GPS with interdimensional worm goo. That’s a new low, even for you. Now it’s purging itself, which means it’s gonna wipe out half its functionality. Lucky for you, it’s leaving just enough to save your ass. But here’s the catch—you’re only getting data from three satellites now. You’ll have to make do!”  \bigskip
+
+\noindent \textbf{(The GPS fires a hidden rocket, sending Morty hurtling uncontrollably through space. It spits out two sets of pings before finally breaking down completely.)}  \bigskip
+
+\noindent \textbf{Rick:} “Okay, Morty, here’s what you’ve got. The GPS managed to record pings from three satellites before it totally crapped out. Here’s the data:” 
+\[
+\begin{aligned}
+A_1 &= 28.21941442 \, \text{ms}, & A_2 &= 32.56521822 \, \text{ms}, \\
+B_1 &= 37.40539321 \, \text{ms}, & B_2 &= 37.48077648 \, \text{ms}, \\
+C_1 &= 21.88477974 \, \text{ms}, & C_2 &= 35.47581482 \, \text{ms}.
+\end{aligned}
+\]
+
+\noindent \textbf{Rick:} “Oh, and the timestamps? The first set is at \(t_1 = 0 \, \text{s}\), and the second set is at \(t_2 = 5000 \, \text{s}\). That’s 5000 seconds, Morty, because worm goo screws with everything. Now, using just these three satellites, calculate your direction vector and velocity. Good luck, dumbass!”
+\bigskip
+
+\hl{$(b)$ Figure out the velocity vector using the distance data given.} \bigskip
+
+\noindent \textbf{(After tumbling through space for what feels like an eternity, Morty finally crash-lands into Earth’s orbit. He breathes a sigh of relief, but the GPS splits into two pieces—a sun sensor and a magnetic field sensor.)} \bigskip
+
+\noindent \textbf{Morty:} “Oh man, Rick, the GPS is broken! What am I supposed to do now?!” \bigskip
+
+\noindent \textbf{Rick (Hologram):} “Oh my god, Morty, you’re so useless! You’ve got a sun sensor, a magnetic field sensor, and a radio! Tape the sensors to your chest like the panicked idiot you are, and figure out your orientation relative to Earth. Then, send the data to ground control so they can save your sorry ass.”
+
+\bigskip
+
+\hl{$(c)$ Figure out how to use the sun and magentic sensors to figure out your orientation relative to Earth and include a sketch.} \bigskip
+	
 	
 	\pagebreak
 	\section*{Question 4 - Bob's Cat}

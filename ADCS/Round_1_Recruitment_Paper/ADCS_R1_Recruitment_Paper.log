@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.8.2)  13 JAN 2025 02:33
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.8.2)  17 JAN 2025 02:35
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1692,24 +1692,24 @@ Package pdftex.def Info: Anant_Logo.png  used on input line 306.
  [6]
 File: Anant_Logo.png Graphic file (type png)
 <use Anant_Logo.png>
-Package pdftex.def Info: Anant_Logo.png  used on input line 333.
+Package pdftex.def Info: Anant_Logo.png  used on input line 344.
 (pdftex.def)             Requested size: 281.85231pt x 211.99147pt.
  [7]
 File: Anant_Logo.png Graphic file (type png)
 <use Anant_Logo.png>
-Package pdftex.def Info: Anant_Logo.png  used on input line 338.
+Package pdftex.def Info: Anant_Logo.png  used on input line 377.
 (pdftex.def)             Requested size: 281.85231pt x 211.99147pt.
  [8]
 File: Anant_Logo.png Graphic file (type png)
 <use Anant_Logo.png>
-Package pdftex.def Info: Anant_Logo.png  used on input line 351.
+Package pdftex.def Info: Anant_Logo.png  used on input line 390.
 (pdftex.def)             Requested size: 281.85231pt x 211.99147pt.
  [9]
 This exam contains 0 questions with 0 parts, 0 subparts, and 0 subsubparts.
 (./ADCS_R1_Recruitment_Paper.aux) ) 
 Here is how much of TeX's memory you used:
- 48333 strings out of 478268
- 1119537 string characters out of 5846348
+ 48329 strings out of 478268
+ 1119509 string characters out of 5846348
  1561698 words of memory out of 5000000
  65726 multiletter control sequences out of 15000+600000
  478691 words of font info for 64 fonts, out of 8000000 for 9000
@@ -1728,10 +1728,10 @@ pe1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1
 blic/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/pub
 lic/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/publi
 c/amsfonts/cm/cmti12.pfb>
-Output written on ADCS_R1_Recruitment_Paper.pdf (9 pages, 217745 bytes).
+Output written on ADCS_R1_Recruitment_Paper.pdf (9 pages, 220609 bytes).
 PDF statistics:
- 175 PDF objects out of 1000 (max. 8388607)
- 113 compressed objects within 2 object streams
- 31 named destinations out of 1000 (max. 500000)
+ 170 PDF objects out of 1000 (max. 8388607)
+ 108 compressed objects within 2 object streams
+ 27 named destinations out of 1000 (max. 500000)
  168 words of extra memory for PDF output out of 10000 (max. 10000000)
 
