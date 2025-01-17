@@ -373,33 +373,98 @@ C_1 &= 21.88477974 \, \text{ms}, & C_2 &= 35.47581482 \, \text{ms}.
 \hl{$(c)$ Figure out how to use the sun and magentic sensors to figure out your orientation relative to Earth and include a sketch.} \bigskip
 	
 	
+	
 \pagebreak
-\section*{Question 4 - Bob's Cat}
-Now that Morty is orbitting around earth, he sees the cake right around him. He powers on the last device that rick gave him, allowing him to measure the distance to the cake. 
-	\begin{enumerate}[label = (\alph*)]
-		\item Assume that the cake is right about in front of him, and not moving. Given the first $n$ positions ${(x_1, y_1), (x_2, y_2), ... , (x_n, y_n)}$, estimate the true position of the cake.
-		\item Obviously, noting down every position and finding the exact position every time is unfeasible (because data, duh). Give us a new expression that uses the $(n-1)_{th}$ estimation and the $n_{th}$ measurement to estimate the true position of the cat.
-		\item If the $(x,y)$ measurements for the first 5 seconds are:
-		\begin{align*}
-			(-4.135, 2.81), (-4.859, -1.178), (-3.52, 3.551), (-4.543, 2.088), \\
-			(-4.185, 2.736), (-4.993, 0.269), (-4.455, 2.27), (-1.566, 4.748), \\
-			(-4.843, -1.243), (-4.848, 1.222)
-		\end{align*}
-		Estimate the true distance to the cake.
-		
-		The cake now starts drifting through space (within Morty's eyesight) with $\omega = \frac{2\pi}{14} rad/s$. 
-		
-		\item Given the first $n$ measurements, estimate the $(n+1)^{th}$ measurement.
-		
-		\item If the measurements for the first 5 seconds are:
-		\begin{align*}
-			(-4.349, 2.468), (-4.789, 1.438), (-4.898, 1.003), (-4.741, 1.588), \\
-			(-4.92, 0.893),	(-4.92, -0.893), (-3.471, -3.598), (1.373, -4.808), \\
-			(2.428, -4.371), (4.315, -2.526)
-		\end{align*}
-		Estimate the measurement at 5.5 seconds.
-	\end{enumerate}
+\section*{Question 4: The Final Puff}
 
-\backgroundsetup{contents=\includegraphics{Anant_Logo.png}, opacity=0.1, angle=0, scale=1.5}	
+\noindent \textbf{(Morty is finally in orbit around Earth, after a chaotic adventure filled with worm goo, broken GPS systems, and intergalactic stupidity. His GPS is down to its last feature—a distance tracker—and Rick’s hologram flickers into life.)}
+
+\bigskip
+\noindent \textbf{Morty:} “Rick! I see Earth, but I don’t see the weed! I thought you said this was a treasure map or something! Where is it?!” \bigskip
+
+\noindent \textbf{Rick (Hologram):} “Oh my god, Morty. I didn’t just say it was a treasure map—I meant it! The weed is right there, Morty! Floating in orbit, just like you. But, surprise surprise, your dumb ass is too incompetent to find it. Lucky for you, I left you one last device that can measure its distance. So quit whining and use it!” \bigskip
+
+\noindent \textbf{Morty:} “I-I see it, Rick! It’s right there, floating in front of me! What do I do now?” \bigskip
+
+\noindent \textbf{Rick:} “What do you do now? You find the weed, Morty! Use the first \(n\) positions to estimate its true location. That’s right, Morty, this is math class now. Here’s the deal: you’ve got the weed’s positions at different times, like so:”
+
+\[
+(x_1, y_1), (x_2, y_2), \dots, (x_n, y_n)
+\]
+
+\noindent \textbf{Rick:} “Use this data to estimate where the weed actually is. And no, Morty, you can’t just write it down manually every time. That’s f***ing tedious, and data storage isn’t free! Find a better way to estimate the true position based on the last position and the new measurement. Figure it out!”
+
+\bigskip
+
+\noindent \textbf{Rick:} “Alright, Morty, let’s break this down. First, assume the weed is right in front of you and not moving. Use the first \(n\) positions to estimate where it is. If you don’t know how to do that, Morty, maybe just float there and cry about it.”
+
+\bigskip
+\hl{$(a)$ Estimate the weed's true position: Use the first \textit{n} positions to calculate the weed's actual location}
+\bigskip
+
+\noindent \textbf{Rick:} “Obviously, noting down every single position like a human Excel sheet isn’t gonna cut it. What you need is a formula, Morty—something that updates the estimate dynamically. Use the \(k\)$^{th}$ estimation and the \((k+1)\)$^{th}$ measurement to estimate the true position. Less writing, more science, Morty!” \bigskip
+
+\hl{$(b)$ Derive a formula that uses the $k$$^{th}$ estimation and the $(k+1)$$^{th}$ measurement to refine the weed's position.}
+
+\bigskip
+
+\noindent \textbf{Rick:} “Now, let’s get specific. If these are the weed’s measurements over the first 5 seconds:”
+
+\[
+\begin{aligned}
+\{ 
+&(-4.135, 2.81), \quad (-4.859, -1.178), \quad (-3.52, 3.551), \quad (-4.543, 2.088), \quad  (-4.185, 2.736) \\
+&(-4.993, 0.269), \quad (-4.455, 2.27), \quad (-1.566, 4.748), \quad (-4.843, -1.243), \quad (-4.848, 1.222)
+\}
+\end{aligned}
+\]
+
+\noindent \textbf{Rick:} “Estimate the true position of the weed and calculate its distance from you. Don’t screw it up, Morty! That weed isn’t gonna smoke itself!”
+
+\bigskip
+
+\hl{$(c)$ Use the provided measurements to estimate the weed's true distance from Morty.}
+\bigskip
+
+\noindent \textbf{(Morty stares at the weed, and suddenly it starts drifting through space.)}
+\bigskip
+
+\noindent \textbf{Morty:} “Rick! The weed is moving! It’s getting away!” \bigskip
+
+\noindent \textbf{Rick:} “Of course it’s moving, Morty! Did you think it was just gonna sit there waiting for you to catch it? The weed’s rotation is governed by some cosmic stoner physics, Morty. It’s drifting at an angular velocity of $\omega = \frac{2\pi}{14} rad/s$. You know what that means? You’ve got to predict its next move! Using the first \(n\) measurements, estimate where the weed will be at \(t = t_k\). And hurry up, Morty—I’m not waiting all day for you to figure this out.”
+
+\bigskip
+
+\hl{$(d)$ Given the weed's angular velocity $\omega = \frac{2\pi}{14} rad/s$, estimate where it will be at $t= t_k$}
+
+\bigskip
+\noindent \textbf{Rick:} “Alright, Morty, let’s get real. If these are the weed’s measurements over the first 5 seconds:”
+
+\[
+\begin{aligned}
+\{
+&(-4.349, 2.468), \quad (-4.789, 1.438), \quad (-4.898, 1.003), \quad (-4.741, 1.588), \quad (-4.92, 0.893), \\
+&(-4.92, -0.893), \quad (-3.471, -3.598), \quad (1.373, -4.808), \quad (2.428, -4.371), \quad (4.315, -2.526)
+\}
+\end{aligned}
+\]
+
+\noindent \textbf{Rick:} “Where’s the weed gonna be at \(t = 5.5 \, \text{s}\), Morty? Get your act together and figure it out!”
+
+\bigskip
+
+\hl{$(e)$ Predict the weed's location at $t = 5.5 s$ based on the provided measurements} \bigskip
+
+\noindent \textbf{(Morty finally calculates the weed’s position and snags it just before it drifts out of reach. He breathes a sigh of relief as Rick’s hologram flickers back on.)}
+\bigskip
+
+\noindent \textbf{Morty:} “I-I did it, Rick! I got the weed! What do I do now?” \bigskip
+
+\noindent \textbf{Rick:} “What do you do now?! What do you THINK, Morty? You light it up and pass it to me! Oh wait, you can’t, because you’re still floating in space and I’m back on Earth! Guess I’ll just have to enjoy the stash without you. See you when you get back, Morty—if you don’t screw that up too!”
+
+\bigskip
+
+\noindent \textbf{(Morty groans as the screen fades to black, with the sound of Rick laughing maniacally in the background.)}
+
 
 \end{document}
