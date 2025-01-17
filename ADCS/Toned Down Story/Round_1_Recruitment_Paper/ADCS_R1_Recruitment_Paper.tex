@@ -60,7 +60,7 @@
 \begin{document}
 	\title{Anant 24-25 Recruitment Test}
 	\author{Attitude Determination and Controls Subsystem (ADCS)}
-	\date{January 12th, 2024}
+	\date{January 18th, 2025}
 	\maketitle
 	
 	\section*{Instructions}
@@ -105,7 +105,7 @@ Contact Details:
 \noindent \textit{Scene opens with Rick scribbling frantically on an old map while Morty nervously watches from the side.}
 
 \bigskip
-\noindent \textbf{Rick:} “Morty! MOR-TY! Look at this treasure! Found it in some dusty drawer in my lab. This map leads to what’s described as the finest plant-based relaxation on Earth—none of that store-bought junk, Morty. This is the real deal! Some cosmic entity mapped this out, pointing to $(3182.655, 2000.94, 5135.159) \ \mathrm{km}$ back on January 2, 1920, at 1420 VLAT—don’t give me that look, Morty. It’s UTC+10:00, keep up!” \\
+\noindent \textbf{Rick:} “Morty! MOR-TY! Look at this treasure! Found it in some dusty drawer in my lab. This map leads to what’s described as the finest plant-based relaxation on Earth—none of that store-bought junk, Morty. This is the real deal! Some cosmic entity mapped this out, pointing to $(3182.655, 2000.94, 5135.159) \ \mathrm{km}$ back on January 3, 1920, at 1420 VLAT—don’t give me that look, Morty. It’s UTC+10:00, keep up!” \\
 
 \noindent \textbf{Morty:} “Wait, what are you even talking about, Rick? Why does the map matter? Can’t we just, like, drive there?” \\
 
@@ -122,7 +122,11 @@ Contact Details:
 
 \noindent \textbf{Rick:} “What do you need to do? Convert the coordinates! ECI frame, Morty. Use today’s date. We’re not waiting around forever.” \\
 
-\hl{$(b)$ Convert the hill's position into the Earth Centered Inertial Frame for today's date and time. Use the assumption that ECEF and ECI align perfectly at 1200 GMT daily.}
+\pagebreak
+
+\hl{$(b)$ Convert the hill's position into the Earth Centered Inertial Frame for today's date and time (Mention the time and date you used). Use the assumption that ECEF and ECI align perfectly at 1200 GMT daily.
+
+[\textbf{Caution:} The assumptions in this question overly simplify reality. They may not necessarily match other res.]}
 
 
 \bigskip
@@ -132,7 +136,7 @@ Contact Details:
 
 \noindent \textbf{Morty:} “I-I didn’t think it would matter, Rick! I mean, how different could it—” \\
 
-\noindent \textbf{Rick:} “Stop talking, Morty! Listen, the Earth’s position back in 1920 needs to be calculated based on its orbit around the Sun. Picture the Earth’s elliptical orbit with the Sun at the center. The $z$-axis points north, perpendicular to the orbital plane, and the $x$-axis points toward the Sun at perihelion. Got it?” \\
+\noindent \textbf{Rick:} “Stop talking, Morty! Listen, the Earth’s position back in 1920 needs to be calculated based on its orbit around the Sun. Picture the Earth’s elliptical orbit. The $z$-axis is perpendicular to the orbital plane, lying in the positive $z$-half, and the $x$-axis points from the center of the ellipse to the aphelion. Got it?” \\
 
 \noindent \textbf{Morty:} “Uh, not really...” \\
 
@@ -140,7 +144,7 @@ Contact Details:
 
 \noindent \textbf{Rick:} “And hurry up, Morty! This cosmic herb isn’t going to find itself!” \\
 
-\hl{$(c)$ Parameterize Earth's position in its orbit for January 2nd, 1920, at 1420 VLAT (UTC+10:00). Re-convert the hill's coordinates to the ECI frame of 1920 and input them into the teleporter.}
+\hl{$(c)$ Parameterize Earth's position in its orbit for January 3rd, 1920, at 1420 VLAT (UTC+10:00) such that the center of the orbital ellipse is the origin. Re-convert the hill's current position with respect to the ECI frame of January 3rd, 1920 and input them into the teleporter.}
 
 	\pagebreak
 	
@@ -326,14 +330,14 @@ Satellite B: (-9793, 2384, -6264) \\
 Satellite C: (3383, -2795, -0288)
 \end{center}
 
-\noindent \textbf{Rick:} “But here’s the thing, Morty: there’s a fourth satellite I didn’t tell you about. Why? Because you need to learn to problem-solve, Morty! Here’s a hint: its \(x, y, z\) coordinates are symmetric—all the same value.” 
+\noindent \textbf{Rick:} “But here’s the thing, Morty: there’s a fourth satellite I didn’t tell you about. Why? Because you need to learn to problem-solve, Morty! Here’s a hint: its \(x, y, z\) coordinates are symmetric—all the same value, \textbf{and} $x, y, z \leq 1000 km$” 
 
 \bigskip
 \noindent \textbf{Morty:} “B-but Rick, how am I supposed to figure out where I am?!” \bigskip
 
 \noindent \textbf{Rick:} “Morty, are you even listening? I gave you the ping times for all four satellites. Here they are:”
 \[
-t_A = 23.90987365 \, \text{ms}, \quad t_B = 51.57336220 \, \text{ms}, \quad t_C = 21.79227717 \, \text{ms}, \quad t_D = 14.96656189 \, \text{ms}.
+t_A = 47.81974730 \, \text{ms}, \quad t_B = 103.14672440 \, \text{ms}, \quad t_C = 43.58455434 \, \text{ms}, \quad t_D = 29.93312378\, \text{ms}.
 \]
 
 \hl{$(a)$ Using the provided data, calculate two things: $(i)$ Morty's position in space and $(ii)$ the coordinates of the fourth satellite.}
@@ -369,7 +373,7 @@ C_1 &= 21.88477974 \, \text{ms}, & C_2 &= 35.47581482 \, \text{ms}.
 
 \bigskip
 
-\hl{$(b)$ Calculate Morty's velocity vector using the distance data provided.}
+\hl{$(b)$ Calculate all possible velocity vectors Morty may be taking using the distance data provided.}
 
 \bigskip
 
@@ -381,7 +385,7 @@ C_1 &= 21.88477974 \, \text{ms}, & C_2 &= 35.47581482 \, \text{ms}.
 
 \bigskip
 
-\noindent \textbf{Rick (Hologram):} “Morty, you’ve still got a sun sensor, a magnetic field sensor, and a radio. That’s enough to figure out your orientation relative to Earth. Tape the sensors to your chest if you have to, and send the data to ground control so they can save you!”
+\noindent \textbf{Rick (Hologram):} “Morty, you’ve still got a sun sensor and a magnetic field sensor. That’s enough to figure out your orientation relative to Earth. Tape the sensors to your chest if you have to, and send the data to ground control so they can save you!”
 
 \bigskip
 
@@ -407,6 +411,10 @@ C_1 &= 21.88477974 \, \text{ms}, & C_2 &= 35.47581482 \, \text{ms}.
 \]
 
 \noindent \textbf{Rick:} “Use this data to figure out where the herb actually is. And no, Morty, you can’t just walk around aimlessly—that’s inefficient and dumb! Calculate the true position using the measurements. Get to work!”
+
+\bigskip
+
+\noindent \textbf{Morty:} "Wha? Rick, but I can't! I don't know what to do!"
 
 \bigskip
 
@@ -450,19 +458,16 @@ C_1 &= 21.88477974 \, \text{ms}, & C_2 &= 35.47581482 \, \text{ms}.
 
 \bigskip
 
-\hl{$(d)$ Assuming the herb is being carried in a circular path with angular velocity $\omega = \frac{2\pi}{14} \, \mathrm{rad/s}$, estimate where it will be at $t = t_k$.}
+\hl{$(d)$ Assuming the herb is being carried in a circular path with a constant angular velocity $\omega \, \mathrm{rad/s}$, estimate the value of $\omega$ and where it will be at $t = t_k$.}
 
 \bigskip
 \noindent \textbf{Rick:} “Alright, Morty, let’s get real. These are the critter’s recorded positions over the last few seconds:”
-
-\[
-\begin{aligned}
+\begin{align*}
 \{
 &(-4.349, 2.468), \quad (-4.789, 1.438), \quad (-4.898, 1.003), \quad (-4.741, 1.588), \quad (-4.92, 0.893), \\
 &(-4.92, -0.893), \quad (-3.471, -3.598), \quad (1.373, -4.808), \quad (2.428, -4.371), \quad (4.315, -2.526)
 \}
-\end{aligned}
-\]
+\end{align*}
 
 \noindent \textbf{Rick:} “Predict where the herb will be at \(t = 5.5 \, \mathrm{s}\), Morty. Get your act together and figure it out!”
 
