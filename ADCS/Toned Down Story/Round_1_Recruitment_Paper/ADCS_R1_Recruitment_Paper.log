@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.4) (preloaded format=pdflatex 2023.9.1)  18 JAN 2025 01:54
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.4) (preloaded format=pdflatex 2023.9.1)  18 JAN 2025 02:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1838,14 +1838,14 @@ Package pdftex.def Info: Anant_Logo.png  used on input line 486.
  [10]
 File: Anant_Logo.png Graphic file (type png)
 <use Anant_Logo.png>
-Package pdftex.def Info: Anant_Logo.png  used on input line 491.
+Package pdftex.def Info: Anant_Logo.png  used on input line 494.
 (pdftex.def)             Requested size: 281.85231pt x 211.99147pt.
  [11]
 This exam contains 0 questions with 0 parts, 0 subparts, and 0 subsubparts.
 (ADCS_R1_Recruitment_Paper.aux) ) 
 Here is how much of TeX's memory you used:
- 48823 strings out of 476331
- 1138906 string characters out of 5787766
+ 48824 strings out of 476331
+ 1138916 string characters out of 5787766
  1881660 words of memory out of 5000000
  68434 multiletter control sequences out of 15000+600000
  521719 words of font info for 68 fonts, out of 8000000 for 9000
@@ -1864,9 +1864,9 @@ ic/amsfonts/cm/cmr8.pfb><C:/Users/prana/AppData/Local/Programs/MiKTeX/fonts/typ
 e1/public/amsfonts/cm/cmsy10.pfb><C:/Users/prana/AppData/Local/Programs/MiKTeX/
 fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/prana/AppData/Local/Programs
 /MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on ADCS_R1_Recruitment_Paper.pdf (11 pages, 251466 bytes).
+Output written on ADCS_R1_Recruitment_Paper.pdf (11 pages, 251814 bytes).
 PDF statistics:
- 174 PDF objects out of 1000 (max. 8388607)
- 26 named destinations out of 1000 (max. 500000)
+ 175 PDF objects out of 1000 (max. 8388607)
+ 27 named destinations out of 1000 (max. 500000)
  168 words of extra memory for PDF output out of 10000 (max. 10000000)
 
