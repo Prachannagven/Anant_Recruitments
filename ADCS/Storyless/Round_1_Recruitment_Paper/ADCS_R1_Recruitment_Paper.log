@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.8.2)  18 JAN 2025 01:45
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.8.2)  18 JAN 2025 01:56
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1631,34 +1631,31 @@ Package pdftex.def Info: Anant_Logo.png  used on input line 318.
 (pdftex.def)             Requested size: 281.85231pt x 211.99147pt.
  [7]
 This exam contains 0 questions with 0 parts, 0 subparts, and 0 subsubparts.
-(./ADCS_R1_Recruitment_Paper.aux)
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
- ) 
+(./ADCS_R1_Recruitment_Paper.aux) ) 
 Here is how much of TeX's memory you used:
- 48324 strings out of 478268
- 1119273 string characters out of 5846348
- 1561655 words of memory out of 5000000
- 65711 multiletter control sequences out of 15000+600000
+ 48320 strings out of 478268
+ 1119189 string characters out of 5846348
+ 1561608 words of memory out of 5000000
+ 65707 multiletter control sequences out of 15000+600000
  478344 words of font info for 63 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  91i,12n,117p,748b,1350s stack positions out of 10000i,1000n,20000p,200000b,200000s
-{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/fontawesome/fontawesometw
-o.enc}</usr/local/texlive/2022/texmf-dist/fonts/type1/public/fontawesome/FontAw
-esome.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-bx12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmm
-i12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi
-8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.
-pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pf
-b></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><
-/usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></us
-r/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr
-/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on ADCS_R1_Recruitment_Paper.pdf (7 pages, 186960 bytes).
+{/usr/local/texlive/2022/texmf-dist/fonts/en
+c/dvips/fontawesome/fontawesometwo.enc}</usr/local/texlive/2022/texmf-dist/font
+s/type1/public/fontawesome/FontAwesome.pfb></usr/local/texlive/2022/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2022/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2022/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2022/texmf-dist/font
+s/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2022/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2022/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmsy8.pfb>
+Output written on ADCS_R1_Recruitment_Paper.pdf (7 pages, 187139 bytes).
 PDF statistics:
- 175 PDF objects out of 1000 (max. 8388607)
- 117 compressed objects within 2 object streams
+ 176 PDF objects out of 1000 (max. 8388607)
+ 118 compressed objects within 2 object streams
  38 named destinations out of 1000 (max. 500000)
  168 words of extra memory for PDF output out of 10000 (max. 10000000)
 
