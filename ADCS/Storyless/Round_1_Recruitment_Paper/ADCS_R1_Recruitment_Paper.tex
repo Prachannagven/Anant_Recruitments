@@ -73,11 +73,11 @@
 	\bigskip
 
 	\begin{enumerate}[label = \textbf{Rule \arabic* }:, leftmargin=5em]
-		\item A student must prioritize developing an understanding of the topics being tested and demonstrating general aptitude, as evaluated during the subsequent interview where their solutions will be the main topic of discussion.
+		\item A student must prioritise developing an understanding of the topics being tested and demonstrating general aptitude, as evaluated during the subsequent interview where their solutions will be the main topic of discussion.
 		
 		\item A student must not collaborate with peers unless such collaboration is necessary to better achieve the goals outlined in Rule 1.
 		
-		\item A student must prioritize their physical and mental well-being, avoiding undue stress, all-nighters, or harmful study practices, unless doing so would conflict with Rules 1 or 2.
+		\item A student must prioritise their physical and mental well-being, avoiding undue stress, all-nighters, or harmful study practices, unless doing so would conflict with Rules 1 or 2.
 		
 			\end{enumerate}
 		
@@ -103,15 +103,15 @@ Contact Details:
 \section*{Question 1: Coordinate transformations and orbital mechanics}
 
 \begin{enumerate}[label = (\alph*)]
-	\item Using the provided Earth-Centered Earth-Fixed (ECEF) coordinates of $(3182.655, 2000.94, 5135.159) \, \text{km}$, calculate the corresponding latitude, longitude, and altitude of the point on Earth's surface. Additionally, determine the physical location (name of the place) on Earth corresponding to these coordinates.
-	\item Convert the position from the Earth-Centered Earth-Fixed (ECEF) frame to the Earth-Centered Inertial (ECI) frame for today's date and time. Assume that the ECEF and ECI frames align perfectly at 1200 GMT daily.
-	\item For the date January 2, 1920, at 1420 VLAT (UTC+10:00), calculate the Earth's position in its orbit around the Sun using celestial mechanics. Parameterize the Earth's position in an elliptical orbit with:
+	\item Using the provided Earth-Centered Earth-Fixed (ECEF) coordinates of \[(3182.655, 2000.94, 5135.159) \ km\] calculate the corresponding latitude, longitude, and altitude of the point on Earth's surface. Additionally, determine the physical location (name of the place) on Earth corresponding to these coordinates.
+	\item Convert the position from the Earth-Centered Earth-Fixed (ECEF) frame to the Earth-Centered Inertial (ECI) frame for today's date and time (mention the time and date you used). Assume that the ECEF and ECI frames align perfectly at 1200 GMT daily. [\textbf{Caution:} The assumptions in these questions overly simplify reality. They may not necessarily match other resources.]
+	\item For the date January 3, 1920, at 1420 VLAT (UTC+10:00), parameterize the Earth's position in an elliptical orbit with:
 	\begin{enumerate}[label = (\roman*)]
-		\item The origin at the center of the Sun.
-		\item The \( z \)-axis perpendicular to the orbital plane, pointing north.
-		\item The \( x \)-axis pointing toward the Sun at perihelion.
+		\item The origin is the center of the orbital ellipse.
+		\item The \( z \)-axis perpendicular to the orbital plane and the North pole lying in the positive z-half.
+		\item The \( x \)-axis pointing toward the aphelion from the origin.
 	\end{enumerate}
-	Re-convert the ECEF coordinates to the Earth-Centered Inertial (ECI) frame for this historical date and input the converted coordinates.
+	Re-convert the current ECEF coordinates to the Earth-Centered Inertial (ECI) frame of January 3, 1920, at 1420 VLAT (UTC+10:00).
 \end{enumerate}
 
 	\pagebreak
@@ -161,7 +161,7 @@ Contact Details:
 		\end{tikzpicture}
 	\end{center}
 	
-	\item Consider a two-stage transfer where the spacecraft first transitions to an intermediate high-altitude orbit before reaching the final circular orbit at 2000 km altitude. Ensure that the total $\delta V$ remains minimum. Calculate the total $\Delta V$ for this three-burn maneuver. Compare the result with the $\Delta V$ from part $(a)$. Explain the circumstances under which this method might be preferred over the maneuver in part $(a)$.
+	\item Consider a two-stage transfer where the spacecraft first transitions to an intermediate high-altitude orbit before reaching the final circular orbit at 2000 km altitude. Ensure that the total $\Delta V$ remains minimum. Calculate the total $\Delta V$ for this three-burn maneuver. Compare the result with the $\Delta V$ from part $(a)$. Explain the circumstances under which this method might be preferred over the maneuver in part $(a)$.
 	
 	\begin{center}
 		\begin{tikzpicture}[ scale=1.25,
@@ -202,14 +202,14 @@ Contact Details:
 			
 			\draw[postaction = {mydeco=-0.15 ,decorate}, 
 			postaction = {mydeco=-0.75 ,decorate}] (0,0) circle (1cm);
-			\draw (1.65,-1) node [anchor = east, scale = 0.8]  {Initial Orbit};
+			\draw (1.65,-1.25) node [anchor = east, scale = 0.8]  {Initial Orbit};
 			
 			
 			
 			
 			
 			
-			\draw (1.65,2.55) node [anchor = east, scale = 0.8]  {Final Orbit};
+			\draw (1.65,2.75) node [anchor = east, scale = 0.8]  {Final Orbit};
 			
 			
 			
@@ -218,11 +218,8 @@ Contact Details:
 		\end{tikzpicture}
 	\end{center}
 	
-	\item  In an alternate universe, the gravitational force is given by $F = G \frac{m_1 m_2}{r^3}$. Derive the resulting orbital characteristics under this new force law. Specifically:
-	\begin{enumerate}[label = (\roman*)]
-		\item Determine the shape and stability of the orbits.
-		\item Calculate how the maneuvers required for orbital transfers would change compared to the standard $r^{-2}$ gravitational law.
-	\end{enumerate}
+	\item  In an alternate universe, the gravitational force is given by $F = G \frac{m_1 m_2}{r^3}$. Derive the resulting orbital characteristics under this new force law. Determine the shape and stability of the orbits and calculate how the maneuvers required for orbital transfers would change compared to the standard $r^{-2}$ gravitational law.
+
 \end{enumerate}
 
 \textbf{Note:} Assume standard units for mass, distance, and time throughout. Provide all derivations and necessary equations in your solutions.
@@ -271,11 +268,10 @@ Contact Details:
 \[
 (x_1, y_1), (x_2, y_2), \dots, (x_n, y_n).
 \]
-Using this data, estimate the target object's true position. Provide a clear calculation method and explanation.
-
+Using this data, estimate the target object's true position. 
 \bigskip
 
-\noindent $(b)$ Derive a formula that dynamically updates the estimated position of the target using the \(k\)-th estimation and the \((k+1)\)-th measurement. Explain how the formula refines the estimate with each new measurement.
+\noindent $(b)$ Derive a formula that dynamically updates the estimated position of the target using the \(k\)$^{th}$ estimation and the \((k+1)\)$^{th}$ measurement. Explain how the formula refines the estimate with each new measurement.
 
 \bigskip
 
@@ -291,7 +287,7 @@ Using this data, estimate the target object's true position. Provide a clear cal
 
 \bigskip
 
-\noindent $(d)$ The target object is observed to drift with an angular velocity of $\omega = \frac{2\pi}{14} \, \text{rad/s}$. Using the first \(n\) measurements, estimate the target’s position at a future time \(t = t_k\). Show your calculations clearly.
+\noindent $(d)$ The target object is observed to drift with an angular velocity $\omega$. Using the first \(n\) measurements, estimate the target’s position at a future time \(t = t_k\) and the value of $\omega$. Show your calculations clearly.
 
 \bigskip
 
