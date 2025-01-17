@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.4) (preloaded format=pdflatex 2023.9.1)  18 JAN 2025 01:21
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.4) (preloaded format=pdflatex 2023.9.1)  18 JAN 2025 01:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1638,20 +1638,20 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 65.
 (C:\Users\prana\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Overfull \hbox (49.7718pt too wide) in paragraph at lines 80--81
+Overfull \hbox (49.7718pt too wide) in paragraph at lines 76--77
 \OT1/cmr/m/n/12 stress, all-nighters, or harm-ful study prac-tices, un-less do-
 ing so would con-flict with Rules 1 or 2. 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 84--85
+Underfull \hbox (badness 10000) in paragraph at lines 78--80
 
  []
 
-<Anant_Logo.png, id=42, 281.853pt x 211.992pt>
+<Anant_Logo.png, id=43, 281.853pt x 211.992pt>
 File: Anant_Logo.png Graphic file (type png)
 <use Anant_Logo.png>
-Package pdftex.def Info: Anant_Logo.png  used on input line 99.
+Package pdftex.def Info: Anant_Logo.png  used on input line 93.
 (pdftex.def)             Requested size: 281.85231pt x 211.99147pt.
 [1
 
@@ -1690,17 +1690,32 @@ Package pdftex.def Info: Anant_Logo.png  used on input line 99.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 108--109
+Underfull \hbox (badness 10000) in paragraph at lines 102--103
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 110--111
+Underfull \hbox (badness 10000) in paragraph at lines 104--105
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 112--113
+Underfull \hbox (badness 10000) in paragraph at lines 106--107
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 111--112
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 113--114
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 115--116
 
  []
 
@@ -1709,28 +1724,28 @@ Underfull \hbox (badness 10000) in paragraph at lines 117--118
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 119--120
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 121--122
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 123--124
-
- []
-
 File: Anant_Logo.png Graphic file (type png)
 <use Anant_Logo.png>
-Package pdftex.def Info: Anant_Logo.png  used on input line 126.
+Package pdftex.def Info: Anant_Logo.png  used on input line 120.
 (pdftex.def)             Requested size: 281.85231pt x 211.99147pt.
 [2
 
 ]
+Underfull \hbox (badness 10000) in paragraph at lines 127--128
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 129--130
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 131--132
+
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 133--134
 
  []
@@ -1751,22 +1766,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 139--140
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 141--142
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 143--144
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 145--146
-
- []
-
-
-Overfull \hbox (11.25583pt too wide) in paragraph at lines 147--148
+Overfull \hbox (11.25583pt too wide) in paragraph at lines 141--142
 [][][][] [][][]\OT1/cmr/m/n/12 Pa[]-[]ram[]-[]e[]-[]ter[]-[]ize[] [][][]Earth's
 [] [][][]po[]-[]si[]-[]tion[] [][][]in[] [][][]its[] [][][]or[]-[]bit[] [][][]f
 or[] [][][]Jan[]-[]uary[] [][][]3rd,[] [][][]1920,[] [][][]at[] [][][]1420[] []
@@ -1775,16 +1775,16 @@ or[] [][][]Jan[]-[]uary[] [][][]3rd,[] [][][]1920,[] [][][]at[] [][][]1420[] []
 
 File: Anant_Logo.png Graphic file (type png)
 <use Anant_Logo.png>
-Package pdftex.def Info: Anant_Logo.png  used on input line 150.
+Package pdftex.def Info: Anant_Logo.png  used on input line 144.
 (pdftex.def)             Requested size: 281.85231pt x 211.99147pt.
 [3]
-Underfull \hbox (badness 10000) in paragraph at lines 156--157
+Underfull \hbox (badness 10000) in paragraph at lines 150--151
 
  []
 
 \g__tikzsymbols_savebox_F_1 0.5 0 rg 1 0.5 0 RG_12_Fire_1_box=\box138
 LaTeX Font Info:    Trying to load font information for U+fontawesometwo on inp
-ut line 193.
+ut line 187.
 
 (C:\Users\prana\AppData\Local\Programs\MiKTeX\tex/latex/fontawesome\ufontawesom
 etwo.fd
@@ -1792,51 +1792,51 @@ File: ufontawesometwo.fd 2016/05/22 Font definitions for U/fontawesometwo.
 )
 File: Anant_Logo.png Graphic file (type png)
 <use Anant_Logo.png>
-Package pdftex.def Info: Anant_Logo.png  used on input line 215.
+Package pdftex.def Info: Anant_Logo.png  used on input line 209.
 (pdftex.def)             Requested size: 281.85231pt x 211.99147pt.
  [4{C:/Users/prana/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/fontawesome/fo
 ntawesometwo.enc}]
+Underfull \hbox (badness 10000) in paragraph at lines 284--285
+
+ []
+
+File: Anant_Logo.png Graphic file (type png)
+<use Anant_Logo.png>
+Package pdftex.def Info: Anant_Logo.png  used on input line 287.
+(pdftex.def)             Requested size: 281.85231pt x 211.99147pt.
+[5]
 Underfull \hbox (badness 10000) in paragraph at lines 290--291
 
  []
 
 File: Anant_Logo.png Graphic file (type png)
 <use Anant_Logo.png>
-Package pdftex.def Info: Anant_Logo.png  used on input line 293.
-(pdftex.def)             Requested size: 281.85231pt x 211.99147pt.
-[5]
-Underfull \hbox (badness 10000) in paragraph at lines 296--297
-
- []
-
-File: Anant_Logo.png Graphic file (type png)
-<use Anant_Logo.png>
-Package pdftex.def Info: Anant_Logo.png  used on input line 310.
+Package pdftex.def Info: Anant_Logo.png  used on input line 304.
 (pdftex.def)             Requested size: 281.85231pt x 211.99147pt.
 [6]
 File: Anant_Logo.png Graphic file (type png)
 <use Anant_Logo.png>
-Package pdftex.def Info: Anant_Logo.png  used on input line 348.
+Package pdftex.def Info: Anant_Logo.png  used on input line 342.
 (pdftex.def)             Requested size: 281.85231pt x 211.99147pt.
  [7]
 File: Anant_Logo.png Graphic file (type png)
 <use Anant_Logo.png>
-Package pdftex.def Info: Anant_Logo.png  used on input line 395.
+Package pdftex.def Info: Anant_Logo.png  used on input line 389.
 (pdftex.def)             Requested size: 281.85231pt x 211.99147pt.
  [8]
 File: Anant_Logo.png Graphic file (type png)
 <use Anant_Logo.png>
-Package pdftex.def Info: Anant_Logo.png  used on input line 436.
+Package pdftex.def Info: Anant_Logo.png  used on input line 430.
 (pdftex.def)             Requested size: 281.85231pt x 211.99147pt.
  [9]
 File: Anant_Logo.png Graphic file (type png)
 <use Anant_Logo.png>
-Package pdftex.def Info: Anant_Logo.png  used on input line 485.
+Package pdftex.def Info: Anant_Logo.png  used on input line 479.
 (pdftex.def)             Requested size: 281.85231pt x 211.99147pt.
  [10]
 File: Anant_Logo.png Graphic file (type png)
 <use Anant_Logo.png>
-Package pdftex.def Info: Anant_Logo.png  used on input line 490.
+Package pdftex.def Info: Anant_Logo.png  used on input line 484.
 (pdftex.def)             Requested size: 281.85231pt x 211.99147pt.
  [11]
 This exam contains 0 questions with 0 parts, 0 subparts, and 0 subsubparts.
@@ -1862,9 +1862,9 @@ ic/amsfonts/cm/cmr8.pfb><C:/Users/prana/AppData/Local/Programs/MiKTeX/fonts/typ
 e1/public/amsfonts/cm/cmsy10.pfb><C:/Users/prana/AppData/Local/Programs/MiKTeX/
 fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/prana/AppData/Local/Programs
 /MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on ADCS_R1_Recruitment_Paper.pdf (11 pages, 250758 bytes).
+Output written on ADCS_R1_Recruitment_Paper.pdf (11 pages, 251167 bytes).
 PDF statistics:
- 172 PDF objects out of 1000 (max. 8388607)
+ 173 PDF objects out of 1000 (max. 8388607)
  26 named destinations out of 1000 (max. 500000)
  168 words of extra memory for PDF output out of 10000 (max. 10000000)
 
