@@ -373,16 +373,31 @@ C_1 &= 21.88477974 \, \text{ms}, & C_2 &= 35.47581482 \, \text{ms}.
 \hl{$(c)$ Figure out how to use the sun and magentic sensors to figure out your orientation relative to Earth and include a sketch.} \bigskip
 	
 	
-	\pagebreak
-	\section*{Question 4 - Bob's Cat}
-	His cat has suddenly joined him. Measurements are taken every 0.5 seconds.
+\pagebreak
+\section*{Question 4 - Bob's Cat}
+Now that Morty is orbitting around earth, he sees the cake right around him. He powers on the last device that rick gave him, allowing him to measure the distance to the cake. 
 	\begin{enumerate}[label = (\alph*)]
-		\item Given the first $n$ positions ${(x_1, y_1), (x_2, y_2), ... , (x_n, y_n)}$, estimate the true position of the cat.
+		\item Assume that the cake is right about in front of him, and not moving. Given the first $n$ positions ${(x_1, y_1), (x_2, y_2), ... , (x_n, y_n)}$, estimate the true position of the cake.
 		\item Obviously, noting down every position and finding the exact position every time is unfeasible (because data, duh). Give us a new expression that uses the $(n-1)_{th}$ estimation and the $n_{th}$ measurement to estimate the true position of the cat.
+		\item If the $(x,y)$ measurements for the first 5 seconds are:
+		\begin{align*}
+			(-4.135, 2.81), (-4.859, -1.178), (-3.52, 3.551), (-4.543, 2.088), \\
+			(-4.185, 2.736), (-4.993, 0.269), (-4.455, 2.27), (-1.566, 4.748), \\
+			(-4.843, -1.243), (-4.848, 1.222)
+		\end{align*}
+		Estimate the true distance to the cake.
+		
+		The cake now starts drifting through space (within Morty's eyesight) with $\omega = \frac{2\pi}{14} rad/s$. 
+		
+		\item Given the first $n$ measurements, estimate the $(n+1)^{th}$ measurement.
+		
 		\item If the measurements for the first 5 seconds are:
-		\begin{equation*}
-			1,2,3,4,5
-		\end{equation*}
+		\begin{align*}
+			(-4.349, 2.468), (-4.789, 1.438), (-4.898, 1.003), (-4.741, 1.588), \\
+			(-4.92, 0.893),	(-4.92, -0.893), (-3.471, -3.598), (1.373, -4.808), \\
+			(2.428, -4.371), (4.315, -2.526)
+		\end{align*}
+		Estimate the measurement at 5.5 seconds.
 	\end{enumerate}
 
 \backgroundsetup{contents=\includegraphics{Anant_Logo.png}, opacity=0.1, angle=0, scale=1.5}	
